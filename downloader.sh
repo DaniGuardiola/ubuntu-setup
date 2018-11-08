@@ -12,6 +12,6 @@ if [ $# -eq 0 ]
     chmod +x .ubuntu-setup-run.sh
     echo "cd /tmp/.ubuntu-setup" >> .ubuntu-setup-run.sh
     echo "./run.sh" >> .ubuntu-setup-run.sh
-    echo './.ubuntu-setup-run.sh'
+    echo '/tmp/.ubuntu-setup-run.sh'
     exit
 fi
