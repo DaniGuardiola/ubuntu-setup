@@ -1,0 +1,9 @@
+./prepare.sh
+./dev-programs.sh
+./programs.sh
+./theme.sh
+./gnome-extensions.sh
+./fs.sh
+./update-bashrc.sh
+./cleanup.sh
+./manual-steps.sh
