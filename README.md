@@ -12,6 +12,14 @@ I've coded this trying to make it **idempotent**, which means that (hopefully) e
 
 I don't intend to fully support this behavior though, so for example most software that I stop using won't get removed if the script is run again, it will only stop installing it. Same with configurations.
 
+The basic goals of this configuration are:
+
+- Make Ubuntu look and feel super-nice, minimalistic and clean but functional
+- Install and configure tools for (mainly Javascript / Node.js) sofware development
+- Set up MEGAsync for backups and filesystem sync of projects and apps
+- Set up git and SSH keys configuration
+- Set up Google account in Chrome
+
 # Usage
 
 > First, install Ubuntu 18.10 on a machine. The minimal installation option is recommended but not required.
