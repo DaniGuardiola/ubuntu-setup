@@ -97,3 +97,4 @@ Some stuff I would like to implement at some point
 - Multitouch workspaces
 - More vscode extensions and configurations (emmet, etc)
 - Add apps to PATH (and organize in MEGA)
+- Store commit or version number somewhere (to be able to diff changes on updates for manual machine manteinance over time)
