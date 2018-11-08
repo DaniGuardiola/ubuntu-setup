@@ -9,6 +9,6 @@ if [ $# -eq 0 ]
     unzip -q ubuntu-setup.zip -d /tmp
     mv ubuntu-setup-master .ubuntu-setup
     cd .ubuntu-setup 
-    echo "source run.sh 1"
+    echo "cd .ubuntu-setup && source run.sh 1"
     exit
 fi
