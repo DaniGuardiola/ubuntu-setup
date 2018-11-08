@@ -6,6 +6,8 @@ I made this for myself so expect a 100% opinionated configuration. However, it m
 
 # Usage
 
+> First, install Ubuntu 18.10 on a machine. The minimal installation option is recommended but not required.
+
 For now, just download the repo, extract it if necessary, `cd` into it and run `./run.sh`.
 
 When the script is done, inclusing the manual steps, you will be logged out automatically. It is recommended to restart the computer before using it.
