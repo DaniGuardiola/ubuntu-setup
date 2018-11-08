@@ -8,7 +8,10 @@ if [ $# -eq 0 ]
     wget -q --no-cache -O ubuntu-setup.zip https://github.com/DaniGuardiola/ubuntu-setup/archive/master.zip
     unzip -q ubuntu-setup.zip -d /tmp
     mv ubuntu-setup-master .ubuntu-setup
-    cd .ubuntu-setup 
-    echo "cd /tmp/.ubuntu-setup && source run.sh 1"
+    touch .ubuntu-setup-run.sh
+    chmod +x .ubuntu-setup-run.sh
+    echo "cd /tmp/.ubuntu-setup" >> .ubuntu-setup-run.sh
+    echo "./run.sh" >> .ubuntu-setup-run.sh
+    echo './.ubuntu-setup-run.sh'
     exit
 fi
