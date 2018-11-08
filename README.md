@@ -4,6 +4,12 @@ This is a set of scripts and snippets that are meant to be executed on a fresh i
 
 I made this for myself so expect a 100% opinionated configuration. However, it might be a good starting point for your own configuration, either by forking this repo or by manually changing the settings after using this script.
 
+# Usage
+
+For now, just download the repo, extract it if necessary, `cd` into it and run `./run.sh`.
+
+When the script is done, inclusing the manual steps, you will be logged out automatically. It is recommended to restart the computer before using it.
+
 # Content
 
 ## Packages intalled
@@ -62,9 +68,3 @@ Most of the setup can be done with commands, but some stuff can only be done man
 - There's a Chrome login step in case you use Google sync on Chrome.
 - Git configuration: name and email (based on your input), 'simple' default push behavior and git commit template (from `~/projects/git-commit-template`)
 - SSH key generation (for services like Github or Gitlab)
-
-# Usage
-
-For now, just download the repo, extract it if necessary, `cd` into it and run `./run.sh`.
-
-When the script is done, inclusing the manual steps, you will be logged out automatically. It is recommended to restart the computer before using it.
