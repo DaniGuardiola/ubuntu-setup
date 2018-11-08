@@ -10,7 +10,7 @@ The main purpose of these scripts is to make my life easier whenever I want to s
 
 I've coded this trying to make it **idempotent**, which means that (hopefully) every time the scripts are run, the resulting state of the machine is the same, no matter if it is the first time or if it has been run a thousand times before. This way I can just add more packages and configurations to the script and run it again, so that next time it will be included as well.
 
-I don't intend to fully support this behavior though, so for example most software that I stop using won't get removed if the script is run again, it will only stop installing it. Same with configurations.
+I don't intend to fully support this behavior though, so for example most software that I stop using won't get removed if the script is run again, it will only stop installing. Same with configurations.
 
 The basic goals of this configuration are:
 
