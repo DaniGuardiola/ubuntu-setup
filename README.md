@@ -107,3 +107,9 @@ Some stuff I would like to implement at some point
 - Add apps to PATH (and organize in MEGA)
 - Store commit or version number somewhere (to be able to diff changes on updates for manual machine manteinance over time)
 - Install Chrome Remote Desktop .deb?
+- Enable night light
+- Change default theme to Nokto
+- Investigate default download dir in Chrome (maybe running fs.sh before installing Chrome works)
+- Set up automatic /tmp and thrash removal (settings > privacy)
+- Calibre (and sync with MEGAsync)
+- Create helper functions that allow more interactive & granular customization of the script execution & save time by predicting useless downloads or actions
