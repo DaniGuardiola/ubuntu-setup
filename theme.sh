@@ -66,11 +66,11 @@ then
   uuid=$(create_new_profile ubuntu-setup)
 fi
 
-dconf write /org/gnome/terminal/legacy/profiles:/:$uuid/use-theme-colors "false"
-dconf write /org/gnome/terminal/legacy/profiles:/:$uuid/background-color "'#000000'"
-dconf write /org/gnome/terminal/legacy/profiles:/:$uuid/foreground-color "'#FFFFFF'"
-dconf write /org/gnome/terminal/legacy/profiles:/:$uuid/use-theme-transparency "false"
-dconf write /org/gnome/terminal/legacy/profiles:/:$uuid/use-transparent-background "true"
-dconf write /org/gnome/terminal/legacy/profiles:/:$uuid/background-transparency-percent "20"
+dconf write $dconfdir/:$uuid/use-theme-colors "false"
+dconf write $dconfdir/:$uuid/background-color "'#000000'"
+dconf write $dconfdir/:$uuid/foreground-color "'#FFFFFF'"
+dconf write $dconfdir/:$uuid/use-theme-transparency "false"
+dconf write $dconfdir/:$uuid/use-transparent-background "true"
+dconf write $dconfdir/:$uuid/background-transparency-percent "20"
 
 dconf write $dconfdir/default "'$uuid'"

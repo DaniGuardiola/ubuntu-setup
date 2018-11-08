@@ -116,3 +116,7 @@ Some stuff I would like to implement at some point
 - Fork instructions (DNS, URLs, etc)
 - Steam & Proton 🔥
 - Selectors / customizers per section
+
+# Known problems
+
+- Something seems to break GTK3 apps (gnome-terminal, gedit, nautilus). Workaround: logout and login.
