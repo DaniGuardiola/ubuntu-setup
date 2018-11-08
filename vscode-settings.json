@@ -2,5 +2,7 @@
     "workbench.iconTheme": "vscode-icons",
     "javascript.validate.enable": false,
     "standard.autoFixOnSave": true,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true
 }
