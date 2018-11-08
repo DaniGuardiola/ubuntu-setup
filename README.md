@@ -113,3 +113,6 @@ Some stuff I would like to implement at some point
 - Set up automatic /tmp and thrash removal (settings > privacy)
 - Calibre (and sync with MEGAsync)
 - Create helper functions that allow more interactive & granular customization of the script execution & save time by predicting useless downloads or actions
+- Fork instructions (DNS, URLs, etc)
+- Steam & Proton 🔥
+- Selectors / customizers per section
