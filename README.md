@@ -4,6 +4,14 @@ This is a set of scripts and snippets that are meant to be executed on a fresh i
 
 I made this for myself so expect a 100% opinionated configuration. However, it might be a good starting point for your own configuration, either by forking this repo or by manually changing the settings after using this script.
 
+# Motivation and basic principles
+
+The main purpose of these scripts is to make my life easier whenever I want to setup a new machine or simply reinstall my Ubuntu. Of course, some further configuration always happens afterwards but my goal is to keep as much of it as possible in here, so that I can always install it with a single command.
+
+I've coded this trying to make it **idempotent**, which means that (hopefully) every time the scripts are run, the resulting state of the machine is the same, no matter if it is the first time or if it has been run a thousand times before. This way I can just add more packages and configurations to the script and run it again, so that next time it will be included as well.
+
+I don't intend to fully support this behavior though, so for example most software that I stop using won't get removed if the script is run again, it will only stop installing it. Same with configurations.
+
 # Usage
 
 > First, install Ubuntu 18.10 on a machine. The minimal installation option is recommended but not required.
@@ -77,3 +85,15 @@ Most of the setup can be done with commands, but some stuff can only be done man
 - There's a Chrome login step in case you use Google sync on Chrome.
 - Git configuration: name and email (based on your input), 'simple' default push behavior and git commit template (from `~/projects/git-commit-template`)
 - SSH key generation (for services like Github or Gitlab)
+
+# TODO
+
+Some stuff I would like to implement at some point
+
+- Optionally skip manual steps (all and selectively)
+- Detect .deb packages that are already installed and skip download & install
+- z.sh
+- Setup roboto as default font
+- Multitouch workspaces
+- More vscode extensions and configurations (emmet, etc)
+- Add apps to PATH (and organize in MEGA)
