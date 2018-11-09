@@ -56,10 +56,13 @@ $(wget -qO - ubuntu.daniguardiola.me | bash)
 
 - standardJS
 - vscode-icons
+- fold-level
+- style-components syntax support
 
 ## VScode settings
 
-Check [vscode-settings.json](./vscode-settings.json)
+- [settings.json](./vscode-settings.json)
+- [keybindings.json](./vscode-keybindings.json)
 
 ## Theme and GUI settings
 
