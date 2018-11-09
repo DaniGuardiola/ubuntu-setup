@@ -1,5 +1,6 @@
 ./prepare.sh
 ./dev-programs.sh
+./vscode.sh
 ./programs.sh
 ./theme.sh
 ./gnome-extensions.sh

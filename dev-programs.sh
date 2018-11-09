@@ -27,9 +27,3 @@ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt update
 sudo apt install yarn -y
-
-# configure vscode
-cd $oldDir
-code --install-extension chenxsan.vscode-standardjs
-code --install-extension robertohuertasm.vscode-icons
-cat vscode-settings.json > $HOME/.config/Code/User/settings.json
